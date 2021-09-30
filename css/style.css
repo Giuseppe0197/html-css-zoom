@@ -8,8 +8,9 @@
 /* sezione principale */
 
 main {
-    height: calc(100vh - 50px);
+    height: calc(100vh - 70px);
     background-color: black;
+    overflow-y: scroll;
 }
 
 /* icone in alto a destra */
@@ -38,6 +39,10 @@ main {
     justify-content: space-evenly;
 }
 
+.colonna-sinistra, .colonna-destra {
+    align-self: center;
+}
+
 .fa-caret-left {
     color: #7F7F7F;
     font-size: 60px;
@@ -56,11 +61,13 @@ main {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-bottom: 40px;
     width: 90%;
 }
 
 .colonna-centro div {
     width: 19%;
+    margin: 0 5px;
 }
 
 .colonna-centro div img {
@@ -70,6 +77,46 @@ main {
 /* footer */
 
 footer {
-    height: 50px;
+    height: 70px;
     background-color: #202223;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-footer {
+    align-self: center;
+    display: flex;
+    margin-left: 15px;
+}
+
+.icona {
+    color: white;
+    margin-right: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.fa-chevron-up {
+    font-size: 20px;
+    color: white;
+    margin-right: 20px;
+    align-self: center;
+}
+
+.fa-share-square{
+    color: #4BC800;
+    margin-right: 0;
+}
+
+.opzioni {
+    font-size: 12px;
+}
+
+#end-meeting button {
+    height: 70px;
+    font-size: 20px;
+    color: red;
+    background-color: #4A4B4D;
+    padding: 25px 15px;
+    border: none;
 }
