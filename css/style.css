@@ -8,13 +8,68 @@
 /* sezione principale */
 
 main {
-    height: calc(100vh - 100px);
+    height: calc(100vh - 50px);
     background-color: black;
+}
+
+/* icone in alto a destra */
+
+.bottoni {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bottoni button {
+    background-color: #2D2D2D;
+    color: white;
+    font-size: 15px;
+    padding: 5px 5px;
+    margin: 10px 5px 30px;
+}
+
+.fa-film {
+    padding-right: 5px;
+}
+
+/* sezione centrale con flex */
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fa-caret-left {
+    color: #7F7F7F;
+    font-size: 60px;
+}
+
+.fa-caret-right {
+    color: #2EBAFF;
+    font-size: 60px;
+}
+
+.flex-item p {
+    color: white;
+}
+
+.colonna-centro {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+.colonna-centro div {
+    width: 19%;
+}
+
+.colonna-centro div img {
+    max-width: 100%;
 }
 
 /* footer */
 
 footer {
-    height: 100px;
+    height: 50px;
     background-color: #202223;
 }
