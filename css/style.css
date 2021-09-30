@@ -68,6 +68,25 @@ main {
 .colonna-centro div {
     width: 19%;
     margin: 0 5px;
+    position: relative;
+}
+
+.fa-microphone {
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    padding: 3px 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.fa-microphone-alt-slash {
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    padding: 3px 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .colonna-centro div img {
@@ -103,19 +122,20 @@ footer {
     align-self: center;
 }
 
-.fa-share-square{
+.fa-share-square {
     color: #4BC800;
     margin-right: 0;
 }
 
 .opzioni {
-    font-size: 12px;
+    font-size: 15px;
+    color: white;
 }
 
 #end-meeting button {
     height: 70px;
     font-size: 20px;
-    color: red;
+    color: #F3564C;
     background-color: #4A4B4D;
     padding: 25px 15px;
     border: none;
